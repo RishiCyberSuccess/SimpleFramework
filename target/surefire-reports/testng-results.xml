@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="26278" started-at="2021-10-25T17:56:13 IST" finished-at="2021-10-25T17:56:39 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="26278" started-at="2021-10-25T17:56:13 IST" finished-at="2021-10-25T17:56:39 IST">
+      <class name="testCases.BaseTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:testCases.BaseTest@4923ab24]" name="Setup" is-config="true" duration-ms="16" started-at="2021-10-25T17:56:13 IST" finished-at="2021-10-25T17:56:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+      </class> <!-- testCases.BaseTest -->
+      <class name="testCasesLoginPkg.LoginTest">
+        <test-method status="PASS" signature="loginTearUp()[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="loginTearUp" is-config="true" duration-ms="5925" started-at="2021-10-25T17:56:13 IST" finished-at="2021-10-25T17:56:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTearUp -->
+        <test-method status="PASS" signature="doLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="doLogin" duration-ms="368" started-at="2021-10-25T17:56:19 IST" data-provider="getLoginData" finished-at="2021-10-25T17:56:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PRODUCTS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[verifictionMsg_XPATH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="logInTearDown()[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="logInTearDown" is-config="true" duration-ms="947" started-at="2021-10-25T17:56:19 IST" finished-at="2021-10-25T17:56:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTearDown -->
+        <test-method status="PASS" signature="loginTearUp()[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="loginTearUp" is-config="true" duration-ms="3268" started-at="2021-10-25T17:56:20 IST" finished-at="2021-10-25T17:56:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTearUp -->
+        <test-method status="PASS" signature="doLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="doLogin" duration-ms="329" started-at="2021-10-25T17:56:23 IST" data-provider="getLoginData" finished-at="2021-10-25T17:56:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[verifictionErrMsg_XPATH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="logInTearDown()[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="logInTearDown" is-config="true" duration-ms="892" started-at="2021-10-25T17:56:24 IST" finished-at="2021-10-25T17:56:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTearDown -->
+        <test-method status="PASS" signature="loginTearUp()[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="loginTearUp" is-config="true" duration-ms="3294" started-at="2021-10-25T17:56:24 IST" finished-at="2021-10-25T17:56:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTearUp -->
+        <test-method status="PASS" signature="doLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="doLogin" duration-ms="337" started-at="2021-10-25T17:56:28 IST" data-provider="getLoginData" finished-at="2021-10-25T17:56:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[verifictionErrMsg_XPATH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="logInTearDown()[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="logInTearDown" is-config="true" duration-ms="773" started-at="2021-10-25T17:56:28 IST" finished-at="2021-10-25T17:56:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTearDown -->
+        <test-method status="PASS" signature="loginTearUp()[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="loginTearUp" is-config="true" duration-ms="4464" started-at="2021-10-25T17:56:29 IST" finished-at="2021-10-25T17:56:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTearUp -->
+        <test-method status="PASS" signature="doLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="doLogin" duration-ms="303" started-at="2021-10-25T17:56:33 IST" data-provider="getLoginData" finished-at="2021-10-25T17:56:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[verifictionErrMsg_XPATH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="logInTearDown()[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="logInTearDown" is-config="true" duration-ms="984" started-at="2021-10-25T17:56:34 IST" finished-at="2021-10-25T17:56:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTearDown -->
+        <test-method status="PASS" signature="loginTearUp()[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="loginTearUp" is-config="true" duration-ms="3181" started-at="2021-10-25T17:56:35 IST" finished-at="2021-10-25T17:56:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTearUp -->
+        <test-method status="PASS" signature="verifyLoginTitle()[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="verifyLoginTitle" duration-ms="385" started-at="2021-10-25T17:56:38 IST" finished-at="2021-10-25T17:56:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTitle -->
+        <test-method status="PASS" signature="logInTearDown()[pri:0, instance:testCasesLoginPkg.LoginTest@4d3167f4]" name="logInTearDown" is-config="true" duration-ms="758" started-at="2021-10-25T17:56:38 IST" finished-at="2021-10-25T17:56:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTearDown -->
+      </class> <!-- testCasesLoginPkg.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
